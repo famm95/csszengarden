@@ -10,9 +10,6 @@
 
 /* basic elements */
 
-:root {
-    color: aliceblue;
-}
 html {
 	margin: 0;
 	padding: 0;
@@ -29,6 +26,10 @@ p {
 	margin-top: 0; 
 	text-align: justify;
 	}
+h1 {
+    color: cadetblue;
+    font-weight: bold;
+}
 h3 { 
 	font: italic normal 1.4em georgia, sans-serif;
 	letter-spacing: 1px; 
