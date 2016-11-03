@@ -74,6 +74,7 @@ header h1 {
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
+    color: red;
 	}
 header h2 { 
 	background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left; 
