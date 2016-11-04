@@ -34,3 +34,7 @@ a:hover {
    background-color: cadetblue;
     color: white;
 }
+
+a:visited {
+    color:darkslateblue;
+}
