@@ -9,8 +9,15 @@ h1 {
 
 h2 {
     font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-size: 25px;
 }
 
 h3 {
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
 }
