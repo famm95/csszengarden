@@ -1,8 +1,8 @@
 @font-face {
-    font-family: gardengrown;
+    font-family: 'gardengrown';
     src: url(gardengrown.woff);
 }
 h1 { 
     border: 1px solid red;
-    font-family: gardengrown (cursive);
+    font-family: 'gardengrown', cursive;
 }
