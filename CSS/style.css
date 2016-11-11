@@ -79,8 +79,15 @@ a:visited {
     }
     
     
-    
-    
+}
+
+@media (min-width: 900px) {
+    :not([role="banner"]) {
+        width: 60%;
+        margin: 0 auto;
+        
+        
+    }   
     
     
     
