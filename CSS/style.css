@@ -30,7 +30,9 @@ a {
     text-decoration: none;
 }
 
-
+a:active {
+    color:cadetblue;
+}
 
 a:hover {
    background-color: cadetblue;
