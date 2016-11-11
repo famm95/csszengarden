@@ -67,7 +67,7 @@ a:visited {
     }
     
     [role="banner"] {
-        background-color: gray;
+        background-color: (128,128,128,0.3);
     }
     
     
