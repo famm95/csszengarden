@@ -13,7 +13,7 @@ h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-style: italic;
     font-size: 25px;
-    margin-top: 5px;
+    margin-top: auto;
 }
 
 h3,
@@ -34,7 +34,7 @@ a {
 }
 
 a:active {
-    color:cadetblue;
+    color:teal;
 }
 
 a:hover {
