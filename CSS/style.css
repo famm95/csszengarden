@@ -43,9 +43,9 @@ a {
     
 }
 
-.design-selection,
-.design-archives,
-.zen-resources {
+.design-selection li,
+.design-archives li,
+.zen-resources li {
     list-style-type: none;
 }
 
