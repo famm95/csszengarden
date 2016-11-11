@@ -79,8 +79,8 @@ a:visited {
     
 }
 
-/*@media (min-width: 900px) {
-    :not([role="banner"]) {
+@media (min-width: 900px) {
+    .page-wrapper:not([role="banner"]) {
         width: 60%;
         margin: 0 auto;
         
@@ -91,7 +91,7 @@ a:visited {
     
     
     
-}*/
+}
 
 
 @media (min-width: 1100px) {
