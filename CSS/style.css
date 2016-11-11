@@ -22,7 +22,8 @@ h3,
 }
 
 p,
-.designer-name {
+.designer-name,
+.resources li {
     font-family: 'Josefin Sans', sans-serif;
 }
 
