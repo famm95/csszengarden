@@ -29,6 +29,14 @@ p,
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.zen-validate-html,
+.zen-validate-css,
+.zen-license,
+.zen-accessibility,
+.zen-github {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 a {
     text-decoration: none;
 }
