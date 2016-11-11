@@ -40,6 +40,12 @@ p,
 a {
     text-decoration: none;
     color: teal;
+    
+}
+
+.design-selection,
+.design-archives,
+.zen-resources {
     list-style-type: none;
 }
 
