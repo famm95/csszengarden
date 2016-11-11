@@ -80,7 +80,7 @@ a:visited {
 }
 
 @media (min-width: 900px) {
-    .page-wrapper:not([role="banner"]) {
+    .page-wrapper:not(.intro) {
         width: 60%;
         margin: 0 auto;
         
