@@ -25,10 +25,7 @@ h3,
 p,
 .designer-name,
 .zen-resources,
-.design-archives {
-    font-family: 'Josefin Sans', sans-serif;
-}
-
+.design-archives,
 .zen-validate-html,
 .zen-validate-css,
 .zen-license,
@@ -36,6 +33,7 @@ p,
 .zen-github {
     font-family: 'Josefin Sans', sans-serif;
 }
+
 
 a {
     text-decoration: none;
