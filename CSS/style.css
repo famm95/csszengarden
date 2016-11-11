@@ -54,3 +54,24 @@ a:hover {
 a:visited {
     color:darkslateblue;
 }
+
+
+
+
+
+
+@media (min-width: 600px) {
+  h1,
+    h2 {
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
