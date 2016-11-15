@@ -53,6 +53,12 @@ a {
     list-style-type: none;
 }
 
+select,
+archives,
+resources {
+    padding-left: 40px,
+}
+
 a:active {
     color:teal;
 }
@@ -89,9 +95,13 @@ a:visited {
     .page-wrapper {
         width: 60%;
         margin: 0 auto;
+        }
+    
+    .wrapper {
+        position: absolute;
+        top: 90px;
         
-        
-    }   
+    }
     
     
     
