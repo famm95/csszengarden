@@ -7,13 +7,15 @@
 h1 { 
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-style: italic;
     font-size: 25px;
-    margin-top: auto;
+    
 }
 
 h3,
