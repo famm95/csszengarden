@@ -81,8 +81,8 @@ a:visited {
     
 }
 
-/*@media (min-width: 900px) {
-    .page-wrapper:not(.intro) {
+@media (min-width: 900px) {
+    .page-wrapper {
         width: 60%;
         margin: 0 auto;
         
@@ -93,7 +93,7 @@ a:visited {
     
     
     
-}*/
+}
 
 
 @media (min-width: 1100px) {
