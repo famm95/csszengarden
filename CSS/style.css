@@ -53,9 +53,9 @@ a {
     list-style-type: none;
 }
 
-select,
-archives,
-resources {
+.select,
+.archives,
+.resources {
     padding-left: 40px,
 }
 
@@ -88,10 +88,6 @@ a:visited {
         background-color: lightgray;
     }
     
-    
-}
-
-@media (min-width: 900px) {
     .page-wrapper {
         width: 60%;
         margin: 0 auto;
@@ -99,8 +95,20 @@ a:visited {
     
     .wrapper {
         position: absolute;
-        top: 90px;
-        
+        top: 110px;
+        left: 450px;
+        border: solid .5px darkslategray;
+    }
+    
+    
+}
+
+@media (min-width: 900px) {
+    .wrapper {
+        position: absolute;
+        top: 110px;
+        left: 730px;
+        border: solid .5px darkslategray;
     }
     
     
@@ -111,7 +119,7 @@ a:visited {
 
 
 @media (min-width: 1100px) {
-    .sidebar {
+    .wrapper {
         float: right;
     }  
     
