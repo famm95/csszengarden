@@ -2,6 +2,15 @@
     background-color: aliceblue;
 }
 
+/**body {
+    background-image: url(../Images/1.jpg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+    
+}**/
+
+
 /*******fonts*********/
 
 h1 { 
@@ -91,17 +100,15 @@ a {
     }
     
     .page-wrapper {
-        max-width: 70%;
-        margin: 0 auto;
-        position: absolute;
+        max-width: 60%;
+        margin-right: 
+        
         }
     
     .wrapper {
         width: 30%;
+        float: right;
         
-        position: relative;
-        left: 420px;
-        bottom: 1950px;
     }
     
     
@@ -111,8 +118,7 @@ a {
 
 @media (min-width: 900px) {
     .wrapper {
-        bottom: 1500px;
-        left: 650px;
+        
     }   
     
     
