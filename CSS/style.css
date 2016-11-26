@@ -1,4 +1,4 @@
-:root {
+#css-zen-garden {
     background-color: #f0f8ff;
 }
 
@@ -67,9 +67,9 @@ h2 {
 
 /**********links************/
 
-a:active {
+/**a:active {
     color: #008080;
-}
+}**/
 
 a:hover {
    background-color: #5f9ea0;
@@ -99,9 +99,11 @@ a {
         background-color: #d3d3d3;
     }
     
-    .page-wrapper {
+    .page-wrapper::not([role="banner"]) {
         max-width: 70%;
-       
+        background-color: #76b6c4;
+        margin-right: 10px;
+        margin-left: 10px;
         }
     
     .sidebar {
@@ -110,25 +112,39 @@ a {
         
     }
     
+    a {
+        color: #064273;
+    }   
     
-    
-    
+    .page-wrapper {
+        background-color: #76b6c4;
+    } 
 }
 
 @media (min-width: 900px) {
-    .wrapper {
-        
-    }   
+    .preamble,
+    .explanation,
+    .participation,
+    .benefits,
+    .summary {
+        width: 30%;
+    }
     
    
     
-    
+    .design-selection li,
+    .design-archives li,
+    .zen-resources li {
+        display: inline-block;
+    }  
     
 }
 
 
 @media (min-width: 1100px) {
-    
+    .requirements {
+        width: 30%;
+    }
     
     
     
