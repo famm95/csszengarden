@@ -151,11 +151,14 @@ a {
     
     .col {
         max-width: 22.85067873303167%;
-        float: left;
         margin-right: 2.639517345399698%;
+        float: left;
     }
     
-    
+    .explanation,
+    .preamble {
+        float: inherit;
+    } 
     
    
     
