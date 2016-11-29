@@ -129,7 +129,7 @@ a {
     [role="contentinfo"] {
         font-size: 1.7em;
         float: right;
-        width: 30%;
+        
         text-align: center;
     }
        
@@ -137,16 +137,6 @@ a {
 
 
 @media (min-width: 1100px) {
-    
-   .design-selection li:hover,
-   .design-archives li:hover,
-    .zen-resources li:hover {
-        font-weight: bold;
-    }
-    
-    [role="contentinfo"] {
-        width: 45%
-    }
    
     .design-selection {
         background-color: #7FCDFF;
@@ -154,23 +144,27 @@ a {
 }
 
 @media (min-width: 1366px) {
-    footer {
-        float: right;
+    /**.container {
+        margin-right: 10px;
+        margin-left: 10px;
+    }**/
+    
+    .col {
+        max-width: 22.85067873303167%;
+        float: left;     
     }
     
-    .requirements,
-    .summary,
-    .preamble,
-    .explanation,
-    .participation,
-    .benefits {
-        width: 25%;
+    .preamble {
+        position: relative;
+        top: 125px;
+        right: 307px;
     }
     
+    .explanation {
+        position: relative;
+        top:
+    }
     
-    
-    
-    
-    
+   
     
 }
