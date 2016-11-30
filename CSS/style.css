@@ -160,6 +160,21 @@ a {
         float: inherit;
     } 
     
-   
+    .participation {
+        position: absolute;
+        left: 25.5%;
+        bottom: 9%;
+    } 
+  
+    .benefits {
+        position: absolute;
+        left: 25.5%;
+        bottom: -20%;
+    }
     
+    .requirements {
+        position: absolute;
+        left: 51%;
+        bottom: -85%;
+    }
 }
