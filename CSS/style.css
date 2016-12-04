@@ -9,52 +9,64 @@
     font-weight: bold;
 }
 
-/*******fonts*********/
+/***********H1**********/
 
-h1 { 
+h1 {
     font-family: 'Dancing Script', cursive;
     font-size: 2.5em;
+    margin-top: 15px;
+    margin-bottom: 0px;
 }
+
+/*******H2******/
 
 h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-style: italic;
-    font-size: 1.5625em;   
+    font-size: 1.5625em;
+    margin-top: 5px;
 }
 
-h3,
+/******H3********/
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+}
+
+/*******PARAGRAPHS********/
+
+p {
+   font-family: 'Josefin Sans', sans-serif; 
+}
+
+/******LINKS********/
+
+a {
+    text-decoration: none;
+    color:  #008080;   
+}
+
+a:hover {
+    background-color: #5f9ea0;
+    color: #ffffff;
+}
+
+a:visited {
+    color:#483d8b;
+}
+
+/******SIDEBAR********/
+
 .design-name {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.25em;
 }
 
-p,
 .designer-name,
 .zen-resources,
-.design-archives,
-.zen-validate-html,
-.zen-validate-css,
-.zen-license,
-.zen-accessibility,
-.zen-github {
+.design-archives {
     font-family: 'Josefin Sans', sans-serif;
-}
-
-/*******margins*******/
-
-h1 {
-    margin-top: 15px;
-    margin-bottom: 0px;
-}
-
-h2 {
-    margin-top: 5px;
-}
-
-/*******misc******/
-
-.by {
-    color:#2f4f4f;
 }
 
 .design-selection li,
@@ -63,35 +75,25 @@ h2 {
     list-style-type: none;
 }
 
-/**********links************/
+/********FOOTER THINGS*******/
 
-/**a:active {
-    color: #008080;
-}**/
-
-a:hover {
-   background-color: #5f9ea0;
-    color: #ffffff;
+.zen-validate-html,
+.zen-validate-css,
+.zen-license,
+.zen-accessibility,
+.zen-github {
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-a:visited {
-    color:#483d8b;
-}
+/*******MISC******/
 
-a {
-    text-decoration: none;
-    color:  #008080;   
-}
+.by {
+    color:#2f4f4f;
+}    
 
-
-
+/******MEDIA*******/
 
 @media (min-width: 600px) {
-  h1,
-    h2 {
-        text-align: center;
-        color: #483d8b;
-    }
     
     [role="banner"] {
         background-color: #d3d3d3;
@@ -101,66 +103,77 @@ a {
         max-width: 70%;
         background-color: #76b6c4;
         padding: 0 175px 0 110px;  
-	    margin: 0;
-        
+	    margin: 0;  
     }
+    
+   .page-wrapper {
+        background-color: #76b6c4;  
+    } 
+    
+/******H1******/
+    
+    h1 {
+       text-align: center;
+        color: #483d8b;
+    }
+    
+/******H2*******/
+    
+    h2 {
+        text-align: center;
+        color: #483d8b;
+    }
+ 
+/*****H3********/    
+    
+    h3 {
+       padding-left: 8px; 
+    }
+    
+/*******PARAGRAPHS******/
+    
+    p {
+       padding-left: 8px; 
+    }
+    
+/*******LINKS*******/
     
     a {
         color: #064273;
-    }   
+    }
     
-    .page-wrapper {
-        background-color: #76b6c4;
-        clear: all;
-        
-    } 
-    
-    p,
-    h3,
+/********FOOTER THINGS*****/    
+
     footer {
         padding-left: 8px;
-    }
+    }  
 }
 
 @media (min-width: 900px) {
-    .design-selection li {
-        display: inline-block;
-        padding-left: 5px;
-    }
     
     [role="contentinfo"] {
         font-size: 1.7em;
         float: right;
-        
         text-align: center;
-    }
-       
+    }  
 }
 
-
 @media (min-width: 1100px) {
-   
+    
+/*******SIDEBAR******/    
+    
     .design-selection {
         background-color: #7FCDFF;
-    }
+    }    
 }
 
 @media (min-width: 1366px) {
     
-    .col-1,
-    .col-2,
-    .col-3 {
-        max-width: 22.85067873303167%;
-        margin-right: 2.639517345399698%;
-        float: left;
-    }
     
-    .col-4 {
-       float: left;
-        max-width: 22.85067873303167%;
-    }
-   
-    .explanation {
-        max-width: 22.85067873303167%;
-    } 
+    
+    
+    
+    
+    
+    
 }
