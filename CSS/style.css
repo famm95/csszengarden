@@ -99,14 +99,7 @@ a:visited {
         background-color: #d3d3d3;
     }
     
-    .page-wrapper::not([role="banner"]) {
-        max-width: 70%;
-        background-color: #76b6c4;
-        padding: 0 175px 0 110px;  
-	    margin: 0;  
-    }
-    
-   .page-wrapper {
+   #css-zen-garden {
         background-color: #76b6c4;  
     } 
     
@@ -127,13 +120,13 @@ a:visited {
 /*****H3********/    
     
     h3 {
-       padding-left: 8px; 
+       padding-left: 1.333333333333333%; 
     }
     
 /*******PARAGRAPHS******/
     
     p {
-       padding-left: 8px; 
+       padding-left: 1.333333333333333%; 
     }
     
 /*******LINKS*******/
@@ -145,35 +138,101 @@ a:visited {
 /********FOOTER THINGS*****/    
 
     footer {
-        padding-left: 8px;
+        padding-left: 1.333333333333333%;
     }  
 }
 
 @media (min-width: 900px) {
     
     [role="contentinfo"] {
-        font-size: 1.7em;
-        float: right;
+        font-size: 1.5em;
         text-align: center;
-    }  
+    }
+    
+/******BODY*******/
+    
+    .summary {
+        margin-left: 5.55555555%;
+        margin-right: 5.55555555%;
+        text-align: center;
+    }
+    
+   .preamble,
+    .explanation,
+    .participation,
+    .benefits,
+    .requirements {
+        margin-left: 2.777777777777778%;
+        margin-right: 2.777777777777778%;
+    }       
 }
 
 @media (min-width: 1100px) {
     
-/*******SIDEBAR******/    
+/********BODY*********/
     
-    .design-selection {
-        background-color: #7FCDFF;
-    }    
+    .summary {
+        margin-left: 13.63636363636364%;
+        margin-right: 13.63636363636364%
+    }
+    
+    .preamble,
+    .explanation,
+    .participation,
+    .benefits,
+    .requirements {
+        margin-left: 11.36363636363636%;
+        margin-right: 11.36363636363636%;
+    }        
 }
 
 @media (min-width: 1366px) {
     
+/******H3*********/
     
+    h3 {
+        font-family: 'Dancing Script', cursive;
+        font-weight: bold;
+    }
     
+/******BODY*******/
     
+    .summary {
+        margin-left: 18.30161054172767%;
+        margin-right: 18.30161054172767%;
+    }
     
+    .preamble,
+    .explanation,
+    .participation,
+    .benefits,
+    .requirements {
+        margin-left: 16.4714494875549%;
+        margin-right: 17.20351390922401%;
+    }
     
+ /******SIDEBAR*********/   
     
+    .sidebar {
+        background-color: #7fcdff;
+    }  
+    
+    .design-selection li,
+    .design-archives li,
+    .zen-resources li {
+        display: inline-block;
+    }
+    
+    .design-selection,
+    .design-archives,
+    .zen-resources {
+        margin-left: 3.660322108345534%;
+    }
+    
+/********FOOTER********/
+    
+    footer {
+        float: right;
+    }
     
 }
