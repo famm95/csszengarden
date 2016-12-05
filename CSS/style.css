@@ -9,6 +9,14 @@
     font-weight: bold;
 }
 
+/********IMAGES*********/
+
+img.one,
+img.two,
+img.three {
+    max-width: 100%;
+}
+
 /***********H1**********/
 
 h1 {
@@ -100,8 +108,11 @@ a:visited {
     }
     
    #css-zen-garden {
-        background-color: #76b6c4;  
-    } 
+        background-color: #f0f8ff;
+       
+    }
+    
+/*******IMAGES*******/
     
 /******H1******/
     
@@ -188,6 +199,17 @@ a:visited {
 
 @media (min-width: 1366px) {
     
+    [role="banner"] {
+        opacity: .8;
+    }
+        
+/********IMAGES*******/
+    
+    #css-zen-garden {
+        background-image: url(DSC_1919.JPG);
+       background-repeat: no-repeat;
+    }
+    
 /******H3*********/
     
     h3 {
@@ -196,11 +218,18 @@ a:visited {
         margin-bottom: 5px;
     }
     
+/******LINKS*****/
+    
+    a {
+        color: #000080;
+    }
+    
 /******BODY*******/
     
     .summary {
         margin-left: 18.30161054172767%;
         margin-right: 18.30161054172767%;
+        text-align: justify;
     }
     
     .preamble,
@@ -209,13 +238,21 @@ a:visited {
     .benefits,
     .requirements {
         margin-left: 16.4714494875549%;
-        margin-right: 17.20351390922401%;
+        margin-right: 16.4714494875549%;
+        text-align: justify;
+    }
+    
+    [role="contentinfo"] {
+        font-size: 1.25em;
     }
     
  /******SIDEBAR*********/   
     
     .sidebar {
         background-color: #7fcdff;
+        opacity: .8;
+        margin-left: 3.660322108345534%;
+        margin-right: 3.660322108345534%;
     }  
     
     .design-selection li,
